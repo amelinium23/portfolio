@@ -3,7 +3,7 @@ import { Keyboard } from "react-bootstrap-icons";
 
 export default function Header() {
     const navBarStyle = {
-        borderBottom: "1px solid #292929",
+        borderBottom: "1px solid #464646",
         justifyContent: "center",
     }
 
@@ -14,7 +14,7 @@ export default function Header() {
     return (
         <Navbar bg="dark" variant="dark" style={navBarStyle}>
             <Container>
-                <Navbar.Brand style={brandStyle}><Keyboard width={42} height={42} /></Navbar.Brand>
+                <Navbar.Brand style={brandStyle}><Keyboard width={32} height={32} /></Navbar.Brand>
             </Container>
         </Navbar>
     )
