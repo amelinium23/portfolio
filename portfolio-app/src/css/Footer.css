@@ -5,3 +5,9 @@
  width: 100%;
  border-top: 1px solid #464646;
 }
+
+.footerText {
+ font-size: 12px;
+ text-align: center;
+ color: #6f6f6f;
+}

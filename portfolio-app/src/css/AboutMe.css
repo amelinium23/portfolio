@@ -7,6 +7,7 @@
  font-size: 22px;
  font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
  text-align: justify;
+ padding-top: 1vh;
 }
 
 .aboutMeDescription p {
@@ -14,13 +15,15 @@
 }
 
 .aboutMeImageContainer {
- float: left;
- align-items: flex-end;
+ float: right;
+ padding-top: 1vh;
 }
 
 .aboutMeImage {
  float: right;
  margin: 0;
+ width: 80%;
+ height: fit-content;
 }
 
 .headerContainer {

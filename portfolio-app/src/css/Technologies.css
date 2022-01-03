@@ -1,0 +1,26 @@
+.technologiesHeaderContainer {
+ margin-top: 1vh;
+ border-bottom: 1px solid #464646;
+ font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
+ font-size: large;
+}
+
+.technologiesHeader {
+ font-size: 40px;
+}
+
+.sectionHeader {
+ font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
+ font-size: 20px;
+}
+
+.frameworkContainer {
+ float: left;
+ margin: 0;
+ padding: 0;
+}
+
+.frameworkContainer img {
+ margin-top: 1vh;
+ margin-left: 0.75vw;
+}

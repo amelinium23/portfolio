@@ -1,8 +1,8 @@
-import "../css/App.css"
 import AboutMe from "./AboutMe"
 import ContactMe from "./ContactMe"
 import Footer from "./Footer"
 import Header from "./Header"
+import TechnologiesUse from "./Technologies"
 
 export default function App() {
 
@@ -10,6 +10,7 @@ export default function App() {
     <div>
       <Header />
       <AboutMe />
+      <TechnologiesUse />
       <ContactMe />
       <Footer />
     </div>
