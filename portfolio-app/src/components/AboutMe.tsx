@@ -8,7 +8,7 @@ export default function AboutMe() {
     }
 
     return (
-        <Container id="#aboutMe">
+        <Container>
             <Container className="headerContainer">
                 <h5 className="aboutMeHeader">About Me</h5>
             </Container>
