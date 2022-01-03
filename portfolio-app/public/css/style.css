@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-* {
- font-family: "Roboto Mono", "Fira Code", monospace;
+body {
+ font-family: "Roboto Mono", "Fira Code", "Ubuntu", monospace;
+ color: white;
+ background-color: #212529;
 }

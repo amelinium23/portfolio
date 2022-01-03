@@ -1,0 +1,14 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.aboutMeHeader {
+ margin: 1.5vh 0 0 1.5vh;
+ text-align: left;
+ font-size: 40px;
+}
+
+.aboutMeDescription {
+ margin: 0.5vh 0 0 0.5vh;
+ font-size: 20px;
+ font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
+}
