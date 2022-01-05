@@ -64,7 +64,7 @@ export default function TechnologiesUse() {
             </Container>
             <Container className="technologiesHeaderContainer">
                 <p>IDEs of my choice.</p>
-                <Container className="frameworkContainer" style={{ borderTop: "1px solid #464646" }}>
+                <Container className="frameworkContainer">
                     <p>I created a theme for Visual Studio Code! Simply click the VSC logo to check it out.</p>
                     <Container className="frameworkContainer">
                         <a

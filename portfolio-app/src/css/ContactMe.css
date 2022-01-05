@@ -1,7 +1,26 @@
 .contactMeContainer {
  margin-top: 2vh;
- margin-bottom: 2vh;
- border-bottom: 1px solid #464646;
+ margin-bottom: 4vh;
  font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
  font-size: large;
+}
+
+.technologiesHeader {
+ font-size: 40px;
+}
+
+.iconContainer {
+ display: flex;
+ justify-content: center;
+ float: left;
+ margin-bottom: 2vh;
+ padding: 0;
+}
+
+.iconContainer img {
+ margin-top: 2vh;
+ margin-left: 0.75vw;
+}
+
+.iconContainer {
 }
