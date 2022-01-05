@@ -8,7 +8,7 @@ export default function TechnologiesUse() {
                 <h5 className="technologiesHeader">Frameworks and languages</h5>
             </Container>
             <Container className="technologiesHeaderContainer">
-                <p>In this section I included the frameworks and languages that I use on everyday basis.</p>
+                <p>All frameworks and languages that I use on everyday basis.</p>
                 <Container className="frameworkContainer">
                     <Image
                         width={70}
@@ -62,10 +62,10 @@ export default function TechnologiesUse() {
                         src="https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Logo_jasmine.svg/1200px-Logo_jasmine.svg.png" />
                 </Container>
             </Container>
-            <Container className="technologiesHeaderContainer" >
-                <p>This section IDE of my choice.</p>
+            <Container className="technologiesHeaderContainer">
+                <p>IDEs of my choice.</p>
                 <Container className="frameworkContainer" style={{ borderTop: "1px solid #464646" }}>
-                    <p>For Visual Studio Code i created theme. Just click on visual studio code logo.</p>
+                    <p>I created a theme for Visual Studio Code! Simply click the VSC logo to check it out.</p>
                     <Container className="frameworkContainer">
                         <a
                             href="https://marketplace.visualstudio.com/items?itemName=amelinium23.proper-dark-theme"
@@ -86,6 +86,16 @@ export default function TechnologiesUse() {
                             height={70}
                             alt="jetbrains"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/2048px-PyCharm_Icon.svg.png" />
+                        <Image
+                            width={70}
+                            height={70}
+                            alt="git"
+                            src="https://git-scm.com/images/logos/logomark-orange@2x.png" />
+                        <Image
+                            width={70}
+                            height={70}
+                            alt="postman"
+                            src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8" />
                     </Container>
                 </Container>
             </Container>

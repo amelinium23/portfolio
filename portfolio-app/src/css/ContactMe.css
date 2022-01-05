@@ -1,0 +1,7 @@
+.contactMeContainer {
+ margin-top: 2vh;
+ margin-bottom: 2vh;
+ border-bottom: 1px solid #464646;
+ font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
+ font-size: large;
+}
