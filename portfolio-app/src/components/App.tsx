@@ -1,19 +1,18 @@
-import AboutMe from "./AboutMe"
-import ContactMe from "./ContactMe"
-import Footer from "./Footer"
-import Header from "./Header"
-import TechnologiesUse from "./Technologies"
 import "../css/App.css"
+import AppWraper from "./AppWraper"
+import Projects from "./Projects";
+import {
+  Route,
+  Routes
+} from "react-router-dom";
+
 
 export default function App() {
 
   return (
-    <div className="appContainer">
-      <Header />
-      <AboutMe />
-      <TechnologiesUse />
-      <ContactMe />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<AppWraper />} />
+      <Route path="/projects" element={<Projects />} />
+    </Routes>
   )
 }
