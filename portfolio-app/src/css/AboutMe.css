@@ -1,17 +1,9 @@
-.aboutMeHeader {
- font-size: 40px;
-}
-
 .aboutMeDescription {
  margin-top: 0.25vh;
  font-size: 22px;
  font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
  text-align: justify;
  padding-top: 1vh;
-}
-
-.aboutMeDescription p {
- margin: 0;
 }
 
 .aboutMeImageContainer {
@@ -29,4 +21,12 @@
 .headerContainer {
  margin-top: 1vh;
  border-bottom: 1px solid #464646;
+}
+
+.aboutMeHeader {
+ font-size: 40px;
+}
+
+.aboutMeDescription p {
+ margin: 0;
 }
