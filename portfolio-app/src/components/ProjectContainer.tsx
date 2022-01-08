@@ -11,7 +11,8 @@ interface IProps {
 const ProjectContainer: FC<IProps> = ({ project }) => {
 
     const iconStyle = {
-        color: "white"
+        color: "white",
+        marginTop: "0.5vh"
     }
 
     return (
@@ -21,20 +22,20 @@ const ProjectContainer: FC<IProps> = ({ project }) => {
             </Container>
             <Container className="projectContainer" >
                 <Row>
-                    <Col md={8}>
+                    <Col md={9}>
                         <p>{project.description}</p>
+                    </Col>
+                    <Col md={3} >
                         {
                             project.repo === "" ?
                                 null :
-                                <p>Repo: {" "}
+                                <Container style={{ display: "flex", textAlign: "center", flexDirection: "column" }}>
+                                    <p style={{ alignSelf: "center" }}>Repo</p>
                                     <a href={project.repo} target="blank">
-                                        <Github style={iconStyle} width={30} height={30} />
+                                        <Github style={iconStyle} width={70} height={70} />
                                     </a>
-                                </p>
+                                </Container>
                         }
-                    </Col>
-                    <Col md={4}>
-                        <Image src={`${project.image}`} width={400} height={490} />
                     </Col>
                 </Row>
             </Container>
