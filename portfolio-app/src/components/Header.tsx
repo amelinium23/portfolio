@@ -23,9 +23,7 @@ export default function Header() {
             <Container>
                 <Navbar.Brand style={brandStyle}><Link to="/" style={linkStyle}><Keyboard width={32} height={32} /></Link></Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link>
-                        <Link style={linkStyle} to="/projects">Projects</Link>
-                    </Nav.Link>
+                    <Link style={linkStyle} to="/projects">Projects</Link>
                 </Nav>
             </Container>
         </Navbar>
