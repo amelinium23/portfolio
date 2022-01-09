@@ -1,5 +1,5 @@
 import { FC } from "react"
-import { Container, Col, Image, Row } from "react-bootstrap"
+import { Container, Col, Row } from "react-bootstrap"
 import { IProject } from "../types/IProject"
 import "../css/Projects.css"
 import { Github } from "react-bootstrap-icons"
@@ -9,7 +9,6 @@ interface IProps {
 }
 
 const ProjectContainer: FC<IProps> = ({ project }) => {
-
     const iconStyle = {
         color: "white",
         marginTop: "0.5vh"
