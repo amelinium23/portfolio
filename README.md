@@ -1,3 +1,3 @@
 # My portfolio page
 
-This is my partfolio page.
+This is my portfolio page.
