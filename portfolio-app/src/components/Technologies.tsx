@@ -3,7 +3,7 @@ import "../css/Technologies.css"
 
 export default function TechnologiesUse() {
     return (
-        <Container>
+        <Container style={{ marginBottom: "5vh" }}>
             <Container className="technologiesHeaderContainer">
                 <h5 className="technologiesHeader">Frameworks and languages</h5>
             </Container>

@@ -13,7 +13,7 @@ export default function AboutMe() {
     }
 
     return (
-        <Container>
+        <Container style={{ marginTop: "2vh" }}>
             <Container className="headerContainer">
                 <h5 className="aboutMeHeader">About Me</h5>
             </Container>
