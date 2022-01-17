@@ -23,7 +23,7 @@ export default function Footer() {
     return (
         <Navbar bg="dark" variant="dark" className="footer" style={containerStyle}>
             <Container style={containerStyle}>
-                <Row style={{ margin: "0vh" }}>
+                <Row>
                     <p className="footerText">2022, Piotr Tomczak ©, MIT</p>
                     <Col style={colStyle}>
                         <a href="https://github.com/amelinium23" target={"blank"}>

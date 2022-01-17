@@ -26,7 +26,7 @@ export default function AboutMe() {
                 <Col md={4} style={imageStyle}>
                     <Image
                         className="aboutMeImage"
-                        src="https://raw.githubusercontent.com/amelinium23/portfolio/main/portfolio-app/src/assets/portfolio_image.png?token=APJ2IWGUPHE5WXYA2T7LXKTB3PT3G" />
+                        src="https://raw.githubusercontent.com/amelinium23/portfolio/main/portfolio-app/src/assets/portfolio_image.png?token=GHSAT0AAAAAABQLF646YUP3VOYSEW6HINFWYPFFEBQ" />
                 </Col>
             </Container>
         </Container>

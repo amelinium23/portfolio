@@ -5,7 +5,7 @@ import TechnologiesUse from "./Technologies";
 
 export default function AppWrapper() {
     const appContainerStyle = {
-        marginBottom: "30vh"
+        marginBottom: "35vh"
     }
 
     return (
