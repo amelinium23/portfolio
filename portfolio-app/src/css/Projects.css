@@ -1,0 +1,20 @@
+.projectContainer {
+ margin-bottom: 2vh;
+ margin-top: 2vh;
+ font-size: large;
+ font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
+}
+
+.headerContainer {
+ margin-top: "1vh";
+ border-bottom: "1px solid grey";
+}
+
+.headerContainer h5 {
+ font-size: x-large;
+}
+
+.projectContainer p {
+ font-size: large;
+ text-align: justify;
+}
