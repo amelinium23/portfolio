@@ -24,7 +24,7 @@ export default function Footer() {
         <Navbar bg="dark" variant="dark" className="footer" style={containerStyle}>
             <Container style={containerStyle}>
                 <Row>
-                    <p className="footerText">2022, Piotr Tomczak ©, MIT</p>
+                    <p className="footerText">2022, Piotr Tomczak ©</p>
                     <Col style={colStyle}>
                         <a href="https://github.com/amelinium23" target={"blank"}>
                             <Github style={iconStyle} height={20} width={20} />
