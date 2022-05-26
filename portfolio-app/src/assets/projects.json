@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Glove",
     "description": "A fun project for Software Engineering course at TUL. Built in React Native (frontend) and Django (backend). The challenge of this project was building a three different views. One view was for delivery man, second one was for restaurant owner and the last one was for client. This project was challenging and i learnt a lot of concepts of software engineering.",
-    "repo": ""
+    "repo": "https://github.com/amelinium23/food-ordering-and-delivering-service"
   },
   {
     "id": 2,
