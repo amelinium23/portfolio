@@ -34,5 +34,11 @@
     "name": "Portfolio page",
     "description": "This is my portfolio page. It is built in React with TypeScript. It is a simple page with some information about me. I use it to show my projects and my contact information.",
     "repo": "https://github.com/amelinium23/portfolio"
+  },
+  {
+    "id": 7,
+    "name": "NextJS blog tutorial",
+    "description": "This is my first attempt at creating a blog. It is built in NextJS. It is a simple blog with some information about me. I use it to show my projects and my contact information.",
+    "repo": "https://github.com/amelinium23/nextjs-blog-tutorial.git"
   }
 ]
