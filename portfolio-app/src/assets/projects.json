@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Glove",
+    "description": "A fun project for Software Engineering course at TUL. Built in React Native (frontend) and Django (backend). The challenge of this project was building a three different views. One view was for delivery man, second one was for restaurant owner and the last one was for client. This project was challenging and i learnt a lot of concepts of software engineering.",
+    "repo": ""
+  },
+  {
+    "id": 2,
+    "name": "Cinema management application",
+    "description": "A project for another course at TUL. Purposes of this app are: screening management, ticket and screening room management. Frontend built in React using MaterialUI and backend built using Spring Boot. While i was doing this project, i learn about metrics in software engineering.",
+    "repo": "https://github.com/amelinium23/pacz"
+  },
+  {
+    "id": 3,
+    "name": "Currency Viewer",
+    "description": "One of my side projects. Basically this project collect data from cinkciarz.pl and display it in little window. This project is built in python. That was a project that i learn how to use BeautifulSoup and requests library. The GUI was built in Tkinter.",
+    "repo": "https://github.com/amelinium23/CurrencyViewer"
+  },
+  {
+    "id": 4,
+    "name": "Proper Dark Theme",
+    "description": "One of my side projects. When I was searching for theme for vs code, I couldn't find one that suits me. So I decieded to create one. This project is open-source. On repo you can find the marketplace link, if want to try it out.",
+    "repo": "https://github.com/amelinium23/proper-dark-theme"
+  },
+  {
+    "id": 5,
+    "name": "Dice Roller",
+    "description": "My first attempt at an Android application. In this project, I focused on learning Kotlin. This app is simple we roll the dice. Simple but fun to use and could act like a clicker!",
+    "repo": "https://github.com/amelinium23/dice-roll"
+  },
+  {
+    "id": 6,
+    "name": "Portfolio page",
+    "description": "This is my portfolio page. It is built in React with TypeScript. It is a simple page with some information about me. I use it to show my projects and my contact information.",
+    "repo": "https://github.com/amelinium23/portfolio"
+  }
+]

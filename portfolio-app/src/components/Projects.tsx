@@ -5,22 +5,23 @@ import Header from "./Header"
 import ProjectContainer from "./ProjectContainer"
 import "../css/App.css"
 import "../css/Projects.css"
-import jsonProjects from "../projects.json"
+import jsonProjects from "../assets/projects.json"
 
 export default function Projects() {
-    const [projects,] = React.useState(jsonProjects)
+  const [projects] = React.useState(jsonProjects)
 
-    return (
-        <div className="appContainer">
-            <Header />
-            {
-                projects.map((project: IProject) => {
-                    return (
-                        <ProjectContainer key={`${project.id}-${project.name}`} project={project} />
-                    )
-                })
-            }
-            <Footer />
-        </div>
-    )
+  return (
+    <div className="appContainer">
+      <Header />
+      {projects.map((project: IProject) => {
+        return (
+          <ProjectContainer
+            key={`${project.id}-${project.name}`}
+            project={project}
+          />
+        )
+      })}
+      <Footer />
+    </div>
+  )
 }

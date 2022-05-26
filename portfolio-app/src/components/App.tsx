@@ -1,11 +1,10 @@
 import AppWrapper from "./AppWrapper"
-import Projects from "./Projects";
-import { Route, Routes } from "react-router-dom";
+import Projects from "./Projects"
+import { Route, Routes } from "react-router-dom"
 import "../css/App.css"
+import { FunctionComponent } from "react"
 
-
-export default function App() {
-
+const App: FunctionComponent = () => {
   return (
     <Routes>
       <Route path="/" element={<AppWrapper />} />
@@ -13,3 +12,5 @@ export default function App() {
     </Routes>
   )
 }
+
+export default App

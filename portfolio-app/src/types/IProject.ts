@@ -1,6 +1,6 @@
 export interface IProject {
- id: number;
- name: string;
- description: string;
- repo: string;
+  id: number
+  name: string
+  description: string
+  repo: string
 }
