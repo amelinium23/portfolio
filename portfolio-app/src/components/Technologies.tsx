@@ -4,14 +4,10 @@ import "../css/Technologies.css"
 export default function TechnologiesUse() {
   return (
     <Container>
-      <Container
-        className="technologiesHeaderContainer"
-        style={{ borderBottom: "1px solid #464646" }}>
+      <Container style={{ borderBottom: "1px solid #464646" }}>
         <h5 className="technologiesHeader">Frameworks and languages</h5>
       </Container>
-      <Container
-        className="technologiesHeaderContainer"
-        style={{ borderBottom: "1px solid #464646" }}>
+      <Container className="technologiesHeaderContainer">
         <p>All frameworks and languages that I use on everyday basis.</p>
         <Container className="frameworkContainer">
           <Col md={12}>
@@ -78,9 +74,7 @@ export default function TechnologiesUse() {
           </Col>
         </Container>
       </Container>
-      <Container
-        className="technologiesHeaderContainer"
-        style={{ borderBottom: "1px solid #464646", marginBottom: "20vh" }}>
+      <Container>
         <p>IDEs and tools of my choice.</p>
         <Container className="frameworkContainer">
           <Col md={12}>
