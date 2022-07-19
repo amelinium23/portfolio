@@ -16,7 +16,7 @@ export default function Header() {
     textDecoration: "none",
     fontSize: "large",
     fontFamily: "Cascadia Code",
-    marginRight: "0.2vw",
+    margin: "0 0.25vw",
   }
 
   return (

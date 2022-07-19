@@ -1,7 +1,5 @@
 import React from "react"
 import { IProject } from "../types/IProject"
-import Footer from "../components/Footer"
-import Header from "../components/Header"
 import ProjectContainer from "../components/ProjectContainer"
 import jsonProjects from "../assets/projects.json"
 import "../css/App.css"
@@ -12,7 +10,6 @@ export default function Projects() {
 
   return (
     <div className="appContainer">
-      <Header />
       {projects.map((project: IProject) => {
         return (
           <ProjectContainer
@@ -21,7 +18,6 @@ export default function Projects() {
           />
         )
       })}
-      <Footer />
     </div>
   )
 }
