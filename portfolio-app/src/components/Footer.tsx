@@ -26,10 +26,10 @@ export default function Footer() {
         <Row>
           <p className="footerText">2022, Piotr Tomczak ©</p>
           <Col style={colStyle}>
-            <a href="https://github.com/amelinium23" target={"blank"}>
+            <a href="https://github.com/amelinium23" target="blank">
               <Github style={iconStyle} height={20} width={20} />
             </a>
-            <a href="https://www.instagram.com/amelinium23/" target={"blank"}>
+            <a href="https://www.instagram.com/amelinium23/" target="blank">
               <Instagram style={iconStyle} height={20} width={20} />
             </a>
             <a
