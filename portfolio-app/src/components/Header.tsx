@@ -8,7 +8,7 @@ export default function Header() {
   }
 
   const brandStyle = {
-    marginLeft: "1vw",
+    marginLeft: "0.55vw",
   }
 
   const linkStyle = {
@@ -16,6 +16,7 @@ export default function Header() {
     textDecoration: "none",
     fontSize: "large",
     fontFamily: "Cascadia Code",
+    marginRight: "0.2vw",
   }
 
   return (
@@ -29,6 +30,9 @@ export default function Header() {
         <Nav className="me-auto">
           <Link style={linkStyle} to="/projects">
             Projects
+          </Link>
+          <Link style={linkStyle} to="/experience">
+            Experience
           </Link>
         </Nav>
       </Container>

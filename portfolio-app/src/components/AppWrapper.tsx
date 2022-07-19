@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react"
-import AboutMe from "./AboutMe"
+import AboutMe from "../pages/AboutMe"
 import Footer from "./Footer"
 import Header from "./Header"
 import TechnologiesUse from "./Technologies"

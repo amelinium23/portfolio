@@ -14,7 +14,7 @@ const AboutMe: FunctionComponent = () => {
   }
 
   return (
-    <Container style={{ marginTop: "2vh" }}>
+    <Container>
       <Container className="headerContainer">
         <h5 className="aboutMeHeader">About Me</h5>
       </Container>
@@ -34,7 +34,7 @@ const AboutMe: FunctionComponent = () => {
         <Col md={4} style={imageStyle}>
           <Image
             className="aboutMeImage"
-            src="https://o.remove.bg/downloads/f8cd755e-f366-4cc7-b7be-304b452ae84e/Zdj%C4%99cie_portfolio_kolor-removebg-preview.png"
+            src="https://avatars.githubusercontent.com/u/64201816?v=4"
           />
         </Col>
       </Container>
