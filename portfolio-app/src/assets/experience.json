@@ -2,9 +2,10 @@
   {
     "id": 1,
     "companyName": "TomTom",
+    "position": "Software Engineer Intern",
     "duration": "Jul 2021 - Jul 2022",
     "place": "Lodz, Poland",
-    "description": "",
+    "description": "As intern, I was involved in creation/developing tools for map creation process. Our tools were built with Flask (Python) and React (JavaScript).",
     "languages": ["Python", "JavaScript", "Groovy", "SQL"],
     "frameworks": ["Flask", "React"],
     "buildServer": "Jenkins",
@@ -13,6 +14,7 @@
   {
     "id": 2,
     "companyName": "Ericsson",
+    "position": "Junior Software Engineer",
     "duration": "Jul 2022 - Present",
     "place": "Lodz, Poland",
     "description": "",

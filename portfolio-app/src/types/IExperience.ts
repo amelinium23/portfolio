@@ -1,5 +1,6 @@
 export interface IExperience {
   id: number
+  position: string
   companyName: string
   duration: string
   place: string
