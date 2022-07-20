@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "companyName": "Ericsson",
+    "position": "Junior Software Engineer",
+    "duration": "Jul 2022 - Present",
+    "place": "Lodz, Poland",
+    "description": "As junior software developer, I was involved in developing tool for collecting requirements for telecommunication purposes. This tool is based on a microservice with microfrontend built with vanilla JavaScript.",
+    "languages": ["Python", "JavaScript"],
+    "frameworks": ["FastAPI", "VanillaJS"],
+    "buildServer": "Jenkins",
+    "database": "ElasticSearch"
+  },
+  {
+    "id": 2,
+    "companyName": "TomTom",
+    "position": "Software Engineer Intern",
+    "duration": "Jul 2021 - Jul 2022",
+    "place": "Lodz, Poland",
+    "description": "As an intern, I was involved in creation/developing tools for map creation process. Our tools were built with Flask and React.",
+    "languages": ["Python", "JavaScript", "Groovy", "SQL"],
+    "frameworks": ["Flask", "React"],
+    "buildServer": "Jenkins",
+    "database": "PostgreSQL"
+  }
+]

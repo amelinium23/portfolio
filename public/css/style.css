@@ -3,8 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .mainFrame {
- color: white;
- background-color: #1f272e;
- font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
- margin-bottom: 1vh;
+  color: white;
+  background-color: #1f272e;
+  font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
 }

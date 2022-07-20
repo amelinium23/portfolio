@@ -1,0 +1,14 @@
+.sectionHeader {
+  font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
+  font-size: 20px;
+}
+
+.frameworkContainer {
+  padding: 0;
+}
+
+.frameworkContainer img {
+  margin-left: 0;
+  margin-right: 0.3vw;
+  margin-bottom: 0.6vh;
+}

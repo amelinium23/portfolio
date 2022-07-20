@@ -2,7 +2,7 @@ import { Container, Navbar, Row, Col } from "react-bootstrap"
 import { Envelope, Github, Instagram, Linkedin } from "react-bootstrap-icons"
 import "../css/Footer.css"
 
-export default function Footer() {
+export const Footer = () => {
   const containerStyle = {
     display: "flex",
     justifyContent: "center",
@@ -26,10 +26,10 @@ export default function Footer() {
         <Row>
           <p className="footerText">2022, Piotr Tomczak ©</p>
           <Col style={colStyle}>
-            <a href="https://github.com/amelinium23" target={"blank"}>
+            <a href="https://github.com/amelinium23" target="blank">
               <Github style={iconStyle} height={20} width={20} />
             </a>
-            <a href="https://www.instagram.com/amelinium23/" target={"blank"}>
+            <a href="https://www.instagram.com/amelinium23/" target="blank">
               <Instagram style={iconStyle} height={20} width={20} />
             </a>
             <a

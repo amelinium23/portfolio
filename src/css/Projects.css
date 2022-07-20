@@ -1,0 +1,9 @@
+.projectContainer {
+  margin-bottom: 1.5vh;
+  margin-top: 1.2vh;
+  font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
+}
+
+.projectContainer p {
+  text-align: justify;
+}

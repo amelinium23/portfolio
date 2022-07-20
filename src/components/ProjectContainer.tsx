@@ -8,16 +8,20 @@ interface IProps {
   project: IProject
 }
 
-const ProjectContainer: FunctionComponent<IProps> = ({ project }) => {
+export const ProjectContainer: FunctionComponent<IProps> = ({ project }) => {
   const iconStyle = {
     color: "white",
     marginTop: "0.5vh",
   }
 
+  const headerStyle = {
+    borderBottom: "1px solid grey",
+  }
+
   return (
-    <Container className="projectContainer">
-      <Container className="headerContainer">
-        <h5>{project.name}</h5>
+    <>
+      <Container>
+        <h5 style={headerStyle}>{project.name}</h5>
       </Container>
       <Container className="projectContainer">
         <Row>
@@ -41,8 +45,6 @@ const ProjectContainer: FunctionComponent<IProps> = ({ project }) => {
           </Col>
         </Row>
       </Container>
-    </Container>
+    </>
   )
 }
-
-export default ProjectContainer

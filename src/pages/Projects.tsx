@@ -1,19 +1,14 @@
-import React from "react"
 import { IProject } from "../types/IProject"
-import Footer from "./Footer"
-import Header from "./Header"
-import ProjectContainer from "./ProjectContainer"
-import "../css/App.css"
-import "../css/Projects.css"
+import { ProjectContainer } from "../components/ProjectContainer"
 import jsonProjects from "../assets/projects.json"
 
-export default function Projects() {
-  const [projects] = React.useState(jsonProjects)
+import "../css/App.css"
+import "../css/Projects.css"
 
+export default function Projects() {
   return (
     <div className="appContainer">
-      <Header />
-      {projects.map((project: IProject) => {
+      {jsonProjects.map((project: IProject) => {
         return (
           <ProjectContainer
             key={`${project.id}-${project.name}`}
@@ -21,7 +16,6 @@ export default function Projects() {
           />
         )
       })}
-      <Footer />
     </div>
   )
 }
