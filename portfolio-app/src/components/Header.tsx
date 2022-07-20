@@ -2,9 +2,10 @@ import { Container, Nav, Navbar } from "react-bootstrap"
 import { Keyboard } from "react-bootstrap-icons"
 import { Link } from "react-router-dom"
 
-export default function Header() {
+export const Header = () => {
   const navBarStyle = {
     borderBottom: "1px solid #464646",
+    marginBottom: "1vh",
   }
 
   const brandStyle = {

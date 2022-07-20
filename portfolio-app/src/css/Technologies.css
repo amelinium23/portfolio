@@ -1,32 +1,8 @@
-.technologiesHeaderContainer {
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-  font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
-  font-size: large;
-}
-
-.technologiesHeader {
-  font-size: 40px;
-}
-
 .sectionHeader {
   font-family: "Cascadia Code", "Fira Code", "Roboto", monospace, sans-serif;
   font-size: 20px;
 }
 
-.frameworkContainer {
-  display: flex;
-  justify-content: center;
-  float: left;
-  margin-bottom: 3vh;
-  padding: 0;
-}
-
-.frameworkContainer p {
-  margin-top: 1vh;
-}
-
 .frameworkContainer img {
-  margin-top: 2vh;
-  margin-left: 0.75vw;
+  margin: 0.3vw 1vh;
 }

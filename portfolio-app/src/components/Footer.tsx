@@ -2,7 +2,7 @@ import { Container, Navbar, Row, Col } from "react-bootstrap"
 import { Envelope, Github, Instagram, Linkedin } from "react-bootstrap-icons"
 import "../css/Footer.css"
 
-export default function Footer() {
+export const Footer = () => {
   const containerStyle = {
     display: "flex",
     justifyContent: "center",

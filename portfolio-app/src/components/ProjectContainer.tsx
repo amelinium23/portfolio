@@ -8,7 +8,7 @@ interface IProps {
   project: IProject
 }
 
-const ProjectContainer: FunctionComponent<IProps> = ({ project }) => {
+export const ProjectContainer: FunctionComponent<IProps> = ({ project }) => {
   const iconStyle = {
     color: "white",
     marginTop: "0.5vh",
@@ -44,5 +44,3 @@ const ProjectContainer: FunctionComponent<IProps> = ({ project }) => {
     </Container>
   )
 }
-
-export default ProjectContainer

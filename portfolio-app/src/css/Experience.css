@@ -1,0 +1,11 @@
+.experience-container {
+  margin-bottom: 0.5vh;
+}
+
+.experience-container p {
+  margin-bottom: 0.2vh;
+}
+
+.main-experience-container {
+  border-bottom: "1px solid grey";
+}
