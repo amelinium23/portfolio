@@ -14,10 +14,14 @@ export const ProjectContainer: FunctionComponent<IProps> = ({ project }) => {
     marginTop: "0.5vh",
   }
 
+  const headerStyle = {
+    borderBottom: "1px solid grey",
+  }
+
   return (
-    <Container className="projectContainer">
-      <Container className="headerContainer">
-        <h5>{project.name}</h5>
+    <>
+      <Container>
+        <h5 style={headerStyle}>{project.name}</h5>
       </Container>
       <Container className="projectContainer">
         <Row>
@@ -41,6 +45,6 @@ export const ProjectContainer: FunctionComponent<IProps> = ({ project }) => {
           </Col>
         </Row>
       </Container>
-    </Container>
+    </>
   )
 }
