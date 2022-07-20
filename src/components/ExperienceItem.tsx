@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react"
 import { IExperience } from "../types/IExperience"
-import { Container, Row } from "react-bootstrap"
+import { Row } from "react-bootstrap"
 import "../css/Experience.css"
 import { ArrowReturnRight } from "react-bootstrap-icons"
 
@@ -12,8 +12,8 @@ export const ExperienceItem: FunctionComponent<ExperienceItemProps> = ({
   experience,
 }) => {
   return (
-    <Container>
-      <h4 style={{ borderBottom: "1px solid grey" }}>{experience.position}</h4>
+    <>
+      <h5 style={{ borderBottom: "1px solid grey" }}>{experience.position}</h5>
       <Row className="experience-container">
         <p>
           {[experience.companyName, experience.duration, experience.place].join(
@@ -36,6 +36,6 @@ export const ExperienceItem: FunctionComponent<ExperienceItemProps> = ({
           <ArrowReturnRight /> Database that was used: {experience.database}.
         </p>
       </Row>
-    </Container>
+    </>
   )
 }
