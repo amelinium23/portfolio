@@ -1,6 +1,0 @@
-name: Portfolio app deploy
-
-on:
-  push:
-    branches:
-      - master
