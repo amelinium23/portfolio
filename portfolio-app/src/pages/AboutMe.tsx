@@ -12,10 +12,14 @@ export const AboutMe: FunctionComponent = () => {
     justifyContent: "center",
   }
 
+  const headerStyle = {
+    borderBottom: "1px solid #464646",
+  }
+
   return (
     <>
       <Container>
-        <h5 style={{ borderBottom: "1px solid #464646" }}>About Me</h5>
+        <h5 style={headerStyle}>About Me</h5>
       </Container>
       <Container style={containerStyle}>
         <Col md={6} className="aboutMeDescription">
@@ -23,7 +27,10 @@ export const AboutMe: FunctionComponent = () => {
             Hi, there! 👋 <br /> I&apos;m Piotr Tomczak. I&apos;m a Computer
             Science student at TUL. I&apos;m a fullstack developer based in
             Lodz, Poland. Currently working at Ericsson as Junior Software
-            Engineer. <br /> I love working out and learning new things. As you
+            Engineer. <br />
+            My languages that I use on daily basis are: Python, JavaScript and
+            TypeScript. I have basic knowledge of JVM languages like: Java and
+            Kotlin. <br /> I love working out and learning new things. As you
             can see, I like minimalism and dark color palettes. 😊
           </p>
         </Col>

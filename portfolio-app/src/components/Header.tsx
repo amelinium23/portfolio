@@ -5,11 +5,6 @@ import { Link } from "react-router-dom"
 export const Header = () => {
   const navBarStyle = {
     borderBottom: "1px solid #464646",
-    marginBottom: "1vh",
-  }
-
-  const brandStyle = {
-    marginLeft: "0.55vw",
   }
 
   const linkStyle = {
@@ -17,13 +12,13 @@ export const Header = () => {
     textDecoration: "none",
     fontSize: "large",
     fontFamily: "Cascadia Code",
-    margin: "0 0.25vw",
+    marginRight: "0.3vw",
   }
 
   return (
     <Navbar bg="dark" variant="dark" style={navBarStyle}>
       <Container>
-        <Navbar.Brand style={brandStyle}>
+        <Navbar.Brand>
           <Link to="/" style={linkStyle}>
             <Keyboard width={32} height={32} />
           </Link>
